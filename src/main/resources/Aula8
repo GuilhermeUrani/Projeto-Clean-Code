@@ -1,0 +1,18 @@
+Aula 8
+
+Funções - Métodos
+
+- Ser pequenas
+- Fazer apenas uma coisa
+- Quando fizer um if else, evitar colocar um bloco de código dentro, inserir um método
+- A maioria das vezes que você tiver um switch, será possível refatorar para utilizar polimorfismo
+- Usar nomes descritivos
+- Não criar métodos com mais de três parâmetros, quanto menos, melhor
+- A função deve fazer algo ou responder algo, nunca os dois
+
+
+Tratamento de erro
+
+- Usar exceção em vez de retornar código
+- Criar as exceções com contexto, não utilizar exceções aleatorias
+- Não retornar e não passar null
