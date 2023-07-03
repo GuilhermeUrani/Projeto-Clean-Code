@@ -4,39 +4,26 @@
 
 ### Alunos: Erisson Breno, Marcus Vinicius, Diego Mischiatti e Guilherme Urani.
 
-#### Classes de modelo
-#### Produto [String nome, Path file, BigDecimal Preco]
-#### Cliente [String Nome]
-#### Assinatura [BigDecimal mensalidade, begin, end (Optional) Cliente] Obs: Crie 2 construtores, um com o "end" e outro sem.
+Seguindo os padrões de Cleancode e solid.
+Refatore o seu código para deixá-lo orientado a objetos.
 
-Quando um usuário realiza uma nova compra um "Pagamento" é utilizado para representá-la.
+Crie 3 tipos de assinatura, anual, semestral e trimestral.
+Crie um método para calcular uma taxa para cada assinatura.
+Obs. Imagine que esse método rodará todo último dia do mes.
+Anual -> Isento da taxa.
+Semestral -> 3% do valor total da assinatura até o presente momento.
+Trimestral -> 5% do valor total da assinatura até o presente momento.
 
-Pagamento [List<Produtos>, dataCompra, Cliente]
+Crie um atributo para controlar assinaturas com atraso de pagamento.
+Crie um mecanismo para validar clientes que tentarem fazer compras com assinatura em atraso e não deixá-los comprar.
 
-1. Crie uma Classe com um método main para criar alguns produtos, clientes e pagamentos.
-   Crie Pagamentos com:  a data de hoje, ontem e um do mês passado.
+Rode o seu código no SonarQube.
+Se possuir problemas corrija-os.
+Se não, parabéns.
 
-2.  Ordene e imprima os pagamentos pela data de compra.
+Coloque os prints do SonarQube dentro de uma pasta chamada sonar na raiz do seu projeto.
 
-3. Calcule e Imprima a soma dos valores de um pagamento com optional e recebendo um Double diretamente.
-
-4.  Calcule o Valor de todos os pagamentos da Lista de pagamentos.
-
-5. Imprima a quantidade de cada Produto vendido.
-
-6. Crie um Mapa de <Cliente, List<Produto> , onde Cliente pode ser o nome do cliente.
-
-7. Qual cliente gastou mais?
-
-8. Quanto foi faturado em um determinado mês?
-
-9. Crie 3 assinaturas com assinaturas de 99.98 reais, sendo 2 deles com assinaturas encerradas.
-
-10. Imprima o tempo em meses de alguma assinatura ainda ativa.
-
-11. Imprima o tempo de meses entre o start e end de todas assinaturas. Não utilize IFs para assinaturas sem end Time.
-
-12. Calcule o valor pago em cada assinatura até o momento.
+Versione seu novo código em outro repositório ou uma branch diferente da tarefa anterior.
 
 ## Pull Request
 
