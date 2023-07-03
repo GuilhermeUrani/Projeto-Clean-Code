@@ -1,0 +1,25 @@
+plugins {
+    id "java"
+    id "org.sonarqube" version "4.2.1.3168"
+}
+
+group = "org.example"
+version = "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(11))
+    }
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
