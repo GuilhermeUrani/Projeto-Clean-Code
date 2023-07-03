@@ -1,2 +1,2 @@
-rootProject.name = "CleanCodeInfnet"
+rootProject.name = "guilhermeUraniCleanCode"
 
