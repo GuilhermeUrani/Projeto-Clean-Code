@@ -1,6 +1,6 @@
 ## Projeto Loja Virtual ACME - Clean and Code
 
-### Primeiro entregável da disciplina de Clean and Code do Instituto Infnet.
+### Segundo entregável da disciplina de Clean and Code do Instituto Infnet.
 
 ### Alunos: Erisson Breno, Marcus Vinicius, Diego Mischiatti e Guilherme Urani.
 
